@@ -44,8 +44,8 @@ public class Mainmenu extends JFrame {
         this.setBounds(1000, 200, 600, 600);
         Graphics g = getGraphics();
         paintComponent(g);
-        Icon playbutton = new ImageIcon("Z:\\Mes documents\\NetBeansProjects\\LightsOutversionMatricielle\\UIimg\\Play-button.png");
-        Icon loadbutton = new ImageIcon("Z:\\Mes documents\\NetBeansProjects\\LightsOutversionMatricielle\\UIimg\\Load-button.png");
+        Icon playbutton = new ImageIcon("UIimg\\Play-button.png");
+        Icon loadbutton = new ImageIcon("UIimg\\Load-button.png");
         Play = new JButton(playbutton);
         Play.setBounds(0, 200, 600, 100);
         Play.setVisible(true);
@@ -79,9 +79,9 @@ public class Mainmenu extends JFrame {
                     Graphics g = gameframe.getGraphics();
                     gameframe.paint(g);
                     System.out.println(gameframe.getGame().toString(gameframe.getGame().getBoard()));
-                    Icon savebutton = new ImageIcon("Z:\\Mes documents\\NetBeansProjects\\LightsOutversionMatricielle\\UIimg\\Save-Button.png");
-                    Icon resolvebrutally = new ImageIcon("Z:\\Mes documents\\NetBeansProjects\\LightsOutversionMatricielle\\UIimg\\Resolve-Brutally.png");
-                    Icon resolveLA = new ImageIcon("Z:\\Mes documents\\NetBeansProjects\\LightsOutversionMatricielle\\UIimg\\Resolve-LA.png");
+                    Icon savebutton = new ImageIcon("UIimg\\Save-Button.png");
+                    Icon resolvebrutally = new ImageIcon("UIimg\\Resolve-Brutally.png");
+                    Icon resolveLA = new ImageIcon("UIimg\\Resolve-LA.png");
                     JButton Resolve = new JButton(resolveLA);
                     JButton NResolve = new JButton(resolvebrutally);
                     JButton Save = new JButton(savebutton);
@@ -146,9 +146,9 @@ public class Mainmenu extends JFrame {
                 Graphics g = gameframe.getGraphics();
                 gameframe.paint(g);
                 System.out.println(gameframe.getGame().toString(gameframe.getGame().getBoard()));
-                Icon savebutton = new ImageIcon("Z:\\Mes documents\\NetBeansProjects\\LightsOutversionMatricielle\\UIimg\\Save-Button.png");
-                Icon resolvebrutally = new ImageIcon("Z:\\Mes documents\\NetBeansProjects\\LightsOutversionMatricielle\\UIimg\\Resolve-Brutally.png");
-                Icon resolveLA = new ImageIcon("Z:\\Mes documents\\NetBeansProjects\\LightsOutversionMatricielle\\UIimg\\Resolve-LA.png");
+                Icon savebutton = new ImageIcon("UIimg\\Save-Button.png");
+                Icon resolvebrutally = new ImageIcon("UIimg\\Resolve-Brutally.png");
+                Icon resolveLA = new ImageIcon("UIimg\\Resolve-LA.png");
                 JButton Resolve = new JButton(resolveLA);
                 JButton NResolve = new JButton(resolvebrutally);
                 JButton Save = new JButton(savebutton);
