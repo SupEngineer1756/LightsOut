@@ -59,7 +59,7 @@ public class GameFrame extends JFrame implements MouseListener {
     public void paint(Graphics g) {
         super.paint(g);
         try {
-            BufferedImage img = ImageIO.read(new File("Z:\\Mes documents\\NetBeansProjects\\LightsOutversionMatricielle\\UIimg\\Gbackground.jpg"));
+            BufferedImage img = ImageIO.read(new File("UIimg\\Gbackground.jpg"));
             g.drawImage(img, 0, 0, null);
         } catch (IOException ex) {
             Logger.getLogger(Mainmenu.class.getName()).log(Level.SEVERE, null, ex);
